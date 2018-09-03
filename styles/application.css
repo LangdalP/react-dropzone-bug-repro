@@ -1,0 +1,21 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "Source Sans Pro",Arial,Helvetica,Sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px 20px 10px;
+}
