@@ -25,5 +25,10 @@ module.exports = {
         loaders: ["style-loader", "css-loader"]
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      Promise: 'es6-promise-promise',
+  })
+  ]
 }
